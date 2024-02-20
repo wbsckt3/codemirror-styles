@@ -1,0 +1,55 @@
+/* Estilos para el editor y la interfaz */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #d9e3d9;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+			padding-left: 100px;
+            padding-right: 100px;
+        }
+		
+		@media only screen and (max-width: 600px) {
+		  body {
+			padding-left: 10px;
+			padding-right: 10px;
+		  }
+		  .CodeMirror {
+		     font-size: 14px;
+		  }
+		}
+
+        .CodeMirror {
+            width: 100%;
+            height: auto;
+			font-family: monospace;
+			height: auto;
+			font-size: 18px; /* Esto hace que el texto del editor se vea más grande */
+			font-weight: bold;
+			color: gray
+        }
+
+        /* Eliminar los puntos de inicio para a y h2 */
+        ul#mocha-report li.suite {
+            list-style: none;
+            /* Eliminar el estilo de lista */
+            padding-left: 0;
+            /* Eliminar el padding izquierdo si lo hubiera */
+        }
+
+        #mocha-stats {
+            margin-top: 0px;
+            background-color: #ddd;
+            border-radius: 5px;
+            font-size: 21px;
+            list-style: none;
+        }
+
+        .explain {
+            background: #d9e3d9;
+            padding: 10px;
+            font-family: helvetica;
+            font-size: 18px;
+            padding-left: 1px;
+        }
