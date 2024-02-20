@@ -25,8 +25,8 @@
             height: auto;
 			font-family: monospace;
 			height: auto;
-			font-size: 18px; /* Esto hace que el texto del editor se vea más grande */
-			font-weight: bold;
+			font-size: 16px; /* Esto hace que el texto del editor se vea más grande */
+			
 			color: gray
         }
 
